@@ -1,2 +1,32 @@
 /* Changes for the home page(index.html)*/
-.main-heading
+html{
+    margin: 0px;
+    padding: 0px; 
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(yellow red ) ;
+}
+.main-heading{
+    text-align: center;
+    background-color: #f1cd00;
+    margin-top: 5px;
+}
+
+.navbar{
+    position: fixed;
+    background-color: #f1cd00;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.links{
+    padding-right: 135px;
+    padding-left: 100px;
+}
+
+.links:hover{
+    background-color: orangered;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
