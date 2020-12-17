@@ -8,9 +8,9 @@ body{
     color:white;
     margin: 0px;
     padding: 0px;
-    background-image: url("images/colorful.jpg") ;
-}
-.main-heading{
+    background-image: linear-gradient(to right top, #370505, #732c17, #ab5e18, #d59b09, #ebe012);}
+
+    .main-heading{
     text-align: center;
     background-color: #be0000d8;
     padding-top: 1px;
@@ -26,6 +26,7 @@ body{
     padding-right: 128px;
     padding-left: 52px;
     font-weight: bold;
+    margin: 0px;
 }
 .navbar a{
     color:white;
