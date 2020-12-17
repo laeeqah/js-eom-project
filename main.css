@@ -4,6 +4,7 @@ html{
     padding: 0px; 
 }
 body{
+    font: normal 16px sans-serif;
     color:white;
     margin: 0px;
     padding: 0px;
@@ -22,8 +23,9 @@ body{
     padding-bottom: 10px;
 }
 .links{
-    padding-right: 135px;
+    padding-right: 128px;
     padding-left: 52px;
+    font-weight: bold;
 }
 .navbar a{
     color:white;
@@ -40,14 +42,6 @@ body{
     padding: 50px;
 }
 
-/*.myfooter{
-    background-color: #f1cd00;
-    display: flex;
-}
-.inside-footer{
-    padding-right: 0px;
-    padding-left:0px ;
-}*/
 .footer-decor {
 background-color: #be0000d8;
 box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -71,7 +65,7 @@ font-weight: bold;
 color: #ffffff;
 margin: 0 0 10px;
 padding: 0;
-transition: ease .25s;
+
 }
 
 .footer-decor p.footer-links a {
@@ -88,7 +82,7 @@ font-size: 20px;
 left: 0;
 color: #fff;
 display: inline-block;
-padding-right: 5px;
+
 }
 
 .footer-decor .footer-links .link-1:before {
@@ -101,9 +95,16 @@ margin-top: 6px;
 max-width: 180px;
 }
 
-
-
-.footer-decor .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
-
 .footer-decor p.footer-links a:hover{text-decoration:underline;}
 
+/*Changes to About page(about.html)*/
+
+.profile{
+    padding-top: 40px;
+    text-align: center;
+}
+img{
+    border-radius: 20px;
+    width: 500px;
+    height: 233px;
+}
