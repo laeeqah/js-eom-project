@@ -1,47 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <!-- <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0"> -->
     <title>Contact Us</title>
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-    <div class = "main-heading">
-        <h1>Welcome I am Laeeqah Esau</h1>
+    <div class="main-heading">
+        <h1>Contact details</h1>
         <h3>Get to know me better</h3>
     </div>
 
-    <nav class = navbar>
-        <a class = links href="index.html">Home</a>
-        <a class = links href="about.html">About</a>
-        <a class = links href="portfolio.html">Portfolio</a>
-        <a class = links href="testimonial.html">Testimonial</a>
-        <a class = links href="contact.html">Contact</a>
+    <nav class="navbar">
+        <a class="links" href="index.html">Home</a>
+        <a class="links" href="about.html">About</a>
+        <a class="links" href="portfolio.html">Portfolio</a>
+        <a class="links" href="testimonial.html">Testimonial</a>
+        <a class="links" href="contact.html">Contact</a>
     </nav>
 
-    <form>
-        
-    </form>
+    <div class="outer-form">
+        <div class="form-layout">
+            <form id="contact" class="contact" action="mailto:laeeqahesau@gamil.com" method="POST">
+                <h3>Contact Me</h3>
+                <h4>Put your details in.</h4>
+                <input class="form-input" type="text" placeholder="Your name" required><br><br>
+                <input class="form-input" type="text" placeholder="Your Surname" required><br><br>
+                <input class="form-input" type="text" placeholder="Your Phone Number" required><br><br>
+                <input class="form-input" type="text" placeholder="Email Address" required><br><br>
+                <textarea class = "form-info" type="text" placeholder="Type your message Here..." reqiured></textarea><br><br>
+                <button name="submit" type="submit" id="submit-form" onclick ="send()" >Submit</button>
+                <button name="clear" type="button" id="clear-form" value = "reset-form" onclick="reset()">Clear</button>
+            </form>
+           
+        </div>
+    </div>
+    <div class = contacts-under-form>
+        <p>
+            <a href="mailto:someone@example.com"><img class="icon-links1" src="images/gmail-icon.png" /></a>
+            <a href="http://www.linkedin.com/in/laeeqah-esau-78467a200/."><img class="icon-links2" src="images/linkedin-icon.svg" /></a>
+            <a href="https://github.com/laeeqah"><img class="icon-links2" src="images/github-icon.png" /></a>
+        </p>
+    </div>
 
-    <footer class="footer-decor">
+    <footer class="footer-decor ">
 
-        <div class="footer-left">
+        <div class="footer-left ">
 
-            <p class="footer-links">
-                <a class="link-1" href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="portfolio.html">portfolio</a>
-                <a href="testimonial.html">testimonial</a>
-                <a href="contact.html">Contact</a>
+            <p class="footer-links ">
+                <a class="link-1 " href="index.html ">Home</a>
+                <a href="about.html ">About</a>
+                <a href="portfolio.html ">portfolio</a>
+                <a href="testimonial.html ">testimonial</a>
+                <a href="contact.html ">Contact</a>
+                <p>Cell number: 0637750536</p>
+                <p>Email Address: laeeqahesau@gmail.com</p>
+
             </p>
 
             <p>Laeeqah Esau &copy; 2020</p>
         </div>
 
     </footer>
+    <script src= "main.js"></script>
 </body>
-</html>
-    
-</body>
+
 </html>
