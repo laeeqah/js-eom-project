@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0"> -->
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0"> 
     <title>Contact Us</title>
     <link rel="stylesheet" href="main.css">
 </head>
@@ -24,7 +24,7 @@
 
     <div class="outer-form">
         <div class="form-layout">
-            <form id="contact" class="contact" action="mailto:laeeqahesau@gamil.com" method="POST">
+            <form id="contact" class="contact" action="mailto:laeeqahesau@gamil.com" method="POST" entype = "text/plain">
                 <h3>Contact Me</h3>
                 <h4>Put your details in.</h4>
                 <input class="form-input" type="text" placeholder="Your name" required><br><br>
@@ -38,13 +38,27 @@
            
         </div>
     </div>
-    <div class = contacts-under-form>
-        <p>
-            <a href="mailto:someone@example.com"><img class="icon-links1" src="images/gmail-icon.png" /></a>
-            <a href="http://www.linkedin.com/in/laeeqah-esau-78467a200/."><img class="icon-links2" src="images/linkedin-icon.svg" /></a>
-            <a href="https://github.com/laeeqah"><img class="icon-links2" src="images/github-icon.png" /></a>
-        </p>
-    </div>
+    <table class = "table-for-contacts">
+        <div class = contacts-under-form>
+            <p>Contact Number: 063-776-0536</p>
+            <tr>
+                <th><img class="icon-links1" src="images/gmail-icon.png" /></a></th>
+                <th><p>Email: laeeqahesau@gmail.com</p></th>
+            </tr>
+            
+            <tr>
+                <th><img class="icon-links2" src="images/linkedin-icon.svg" /></a></th>
+                <th><p>LinkedIn: http://www.linkedin.com/in/laeeqah-esau-78467a200/</p></th>
+            </tr>
+            
+            <tr>
+                <th><img class="icon-links2" src="images/github-icon.png" /></a></th>
+                <th><p>GitHub: https://github.com/laeeqah</p></th> 
+            </tr>
+                
+           
+        </div>
+    </table>
 
     <footer class="footer-decor ">
 
