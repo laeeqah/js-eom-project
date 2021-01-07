@@ -156,7 +156,32 @@ img,
     height: 50px;
 }
 
+.skills-bar{
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
 
+.bars{
+    width: 100%;
+    background-color: #e7e7e79a;
+}
+
+.skills{
+    text-align: right; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    color: #d6d6d6b6;  
+}
+
+.html {width: 90%; background-color: #460066;} 
+.css {width: 80%; background-color: #00ff80;} 
+.js {width: 65%; background-color: #ffd000;} 
+.python-tkinter{width: 65%; background-color: #2bff00;}
+
+.my-info{
+    text-align: center;
+}
 /*testimonial changes(testimonial.html)*/
 
 .cards {
@@ -300,6 +325,130 @@ textarea {
     transition: 1s;
 }
 
+.table-for-contacts{
+    padding-left: 276px;
+}
 .contacts-under-form{
     text-align: center;
+}
+
+/*Media Responsives*/
+
+@media (max-width: 375px){
+    .row1,
+    .row2,
+    .row3 {
+        display: block;
+        padding-left: 32px;
+        
+    }
+
+    .footer-decor{
+       width:395px;
+    }
+}
+@media  (max-width: 600px){
+    /*Index.html(Home page)*/
+    .main-heading {
+        /*changes to the main header*/
+        text-align: center;
+        background-image: url("images/stars-at-night.jpg");
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+
+    .navbar {
+        text-align: center;
+        padding-left: 120px;
+    }
+
+
+    .quote-border{
+        padding:0px;
+        height: 317px;
+        padding-top: 58px;
+    }
+
+    .quote {
+        font-size: 30px;
+    }
+
+    .right-side{
+        padding-right: 0px;
+    }
+    
+    .next-to-quote{
+        width: 150px;
+        height: 300px;
+    }
+
+    table{
+        padding-left:0px;
+    }
+    /*About page*/
+    
+    
+    /*Portfolio page media changes*/
+    .row1,
+    .row2,
+    .row3 {
+        display: block;
+        padding-left: 24px;
+        
+    }
+    
+    /*Contact page Media Changes*/
+    .outer-form {
+        padding-left: 5px;
+    }
+
+    .table-for-contacts{
+        padding-left: 0px;
+    }
+}
+
+@media  (max-width: 425px){
+    .navbar {
+        text-align: center;
+        padding-left: 120px;
+    }
+
+
+    .quote-border{
+        padding:0px;
+        height: 317px;
+        padding-top: 58px;
+    }
+
+    .quote {
+        font-size: 30px;
+    }
+
+    .right-side{
+        padding-right: 0px;
+    }
+    
+    .next-to-quote{
+        width: 150px;
+        height: 300px;
+    }
+
+    table{
+        padding-left:0px;
+    }
+    /*About page*/
+    
+    
+    /*Portfolio page media changes*/
+    .row1,
+    .row2,
+    .row3 {
+        display: block;
+        padding-left: 24px;
+    }
+
+      /*Contact page Media Changes*/
+    .outer-form {
+        padding-left: 5px;
+    }
 }
