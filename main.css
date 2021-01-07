@@ -3,6 +3,7 @@
 html {
     margin: 0px;
     padding: 0px;
+    width: 100%;
 }
 
 body {
@@ -343,14 +344,17 @@ textarea {
         
     }
 
-    .footer-decor{
-       width:395px;
+   
+    .main-heading{
+        width: inherit;
+    
     }
 }
 @media  (max-width: 600px){
     /*Index.html(Home page)*/
     .main-heading {
         /*changes to the main header*/
+        width: 100%;
         text-align: center;
         background-image: url("images/stars-at-night.jpg");
         padding-top: 80px;
@@ -358,7 +362,7 @@ textarea {
     }
 
     .navbar {
-        text-align: center;
+        
         padding-left: 120px;
     }
 
@@ -385,6 +389,7 @@ textarea {
     table{
         padding-left:0px;
     }
+
     /*About page*/
     
     
@@ -396,7 +401,10 @@ textarea {
         padding-left: 24px;
         
     }
-    
+    /*Testimonial page media changes*/
+    .cards{
+        padding-inline-start: 170px;
+    }
     /*Contact page Media Changes*/
     .outer-form {
         padding-left: 5px;
@@ -410,7 +418,9 @@ textarea {
 @media  (max-width: 425px){
     .navbar {
         text-align: center;
-        padding-left: 120px;
+        padding-left: 175px;
+        width: 64%;
+
     }
 
 
@@ -444,7 +454,7 @@ textarea {
     .row2,
     .row3 {
         display: block;
-        padding-left: 24px;
+        padding-left: 140px;
     }
 
       /*Contact page Media Changes*/
