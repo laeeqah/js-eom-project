@@ -23,14 +23,15 @@ body {
     padding-bottom: 100px;
 }
 
-.navbar {
+.navbar { /*This will style the navigation bar*/
     background-image: url("images/stars-at-night.jpg");
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 41px;
 }
 
-.links {
+/* This will style the link in the navigation bar */
+.links { 
     padding-right: 134px;
     padding-left: 38px;
     font-weight: bold;
@@ -163,6 +164,7 @@ img,
     padding-bottom: 50px;
 }
 
+/* This is for the styling of the skills bar */
 .bars{
     width: 100%;
     background-color: #e7e7e79a;
@@ -193,6 +195,7 @@ li{
 }
 /*testimonial changes(testimonial.html)*/
 
+/* Styling for the flip-cards */
 .cards {
     background-color: transparent;
     width: 300px;
@@ -240,6 +243,7 @@ li{
 
 /*portfolio changes*/
 
+/* Styling for the portfolio page */
 h1{
     text-align: center;
 }
@@ -281,6 +285,7 @@ h1{
 
 /*contact changes(contact.html)*/
 
+/* Form and contact styling for the contact page  */
 .outer-form {
     padding: 10px;
 }
@@ -344,7 +349,7 @@ textarea {
 
 /*Media Responsives*/
 
-@media (max-width: 375px){
+@media (max-width: 375px){ 
     .row1,
     .row2,
     .row3 {
@@ -525,6 +530,7 @@ textarea {
     .row2,
     .row3 {
         display: inline-table;
+        
         
     }
 
