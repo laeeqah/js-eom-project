@@ -144,7 +144,7 @@ img,
 .person-photo {
     border-radius: 20px;
     width: 300px;
-    height: 325px;
+    height: 340px;
 }
 
 .icon-links2 {
@@ -213,7 +213,7 @@ img,
 .flip-to-back {
     position: absolute;
     width: 100%;
-    height: 325px;
+    height: 340px;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
@@ -327,7 +327,8 @@ textarea {
 }
 
 .table-for-contacts{
-    padding-left: 276px;
+    padding-top: 5px;
+    padding-left: 349px;
 }
 .contacts-under-form{
     text-align: center;
@@ -355,17 +356,19 @@ textarea {
     .main-heading {
         /*changes to the main header*/
         width: 100%;
-        text-align: center;
-        background-image: url("images/stars-at-night.jpg");
-        padding-top: 80px;
-        padding-bottom: 100px;
     }
 
     .navbar {
-        
-        padding-left: 120px;
+       padding-right: 0px; 
+       
     }
 
+    .links {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0px;
+        display: block;
+    }
 
     .quote-border{
         padding:0px;
@@ -391,36 +394,51 @@ textarea {
     }
 
     /*About page*/
+    .skills-bar{
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 50px;
+    }
+
+    ul{
+        display:inline-block
+    }
     
-    
+    li{
+       text-align: left;
+    }
     /*Portfolio page media changes*/
     .row1,
     .row2,
     .row3 {
         display: block;
-        padding-left: 24px;
+        padding: 50px;
+        
         
     }
+
     /*Testimonial page media changes*/
     .cards{
-        padding-inline-start: 170px;
+        display: block;
     }
+
     /*Contact page Media Changes*/
     .outer-form {
-        padding-left: 5px;
+        display: block;
+        padding: 0px;
     }
 
     .table-for-contacts{
         padding-left: 0px;
     }
-}
+}  
+
 
 @media  (max-width: 425px){
     .navbar {
         text-align: center;
-        padding-left: 175px;
-        width: 64%;
-
+        width: 100%;
+        display: grid;
     }
 
 
@@ -454,7 +472,7 @@ textarea {
     .row2,
     .row3 {
         display: block;
-        padding-left: 140px;
+        
     }
 
       /*Contact page Media Changes*/
@@ -462,3 +480,57 @@ textarea {
         padding-left: 5px;
     }
 }
+
+/*@media (max-width: 768px){
+    .links{
+
+    }
+
+    .table-for-contacts{
+        display: block;
+        padding-left:67px;
+       
+    }
+
+
+    .footer-decor{
+
+    }
+}*/
+
+@media (max-width: 1024px ){ /*Laptop size*/
+  .links{
+        display: inline;
+        padding-inline: 66px;
+    }
+
+    ul{
+        display:inline-block
+    }
+    
+    li{
+       text-align: left;
+    }
+
+    .row1,
+    .row2,
+    .row3 {
+        display: inline-table;
+        padding-inline-start: 225px;
+    }
+
+
+    .cards{
+        display: inline-block;
+        padding-inline: 18px;
+        padding-left: 60px;
+    }
+
+    .table-for-contacts{
+        display: block;
+        padding-left:80px;
+       
+    }
+
+    
+}   
