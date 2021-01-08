@@ -24,15 +24,15 @@
 
     <div class="outer-form">
         <div class="form-layout">
-            <form id="contact" class="contact" action="mailto:laeeqahesau@gamil.com" method="POST" entype = "text/plain">
+            <form id="contact" class="contact" action="https://formspree.io/f/xdopygjr" method="POST">
                 <h3>Contact Me</h3>
                 <h4>Put your details in.</h4>
-                <input class="form-input" type="text" placeholder="Your name" required><br><br>
-                <input class="form-input" type="text" placeholder="Your Surname" required><br><br>
-                <input class="form-input" type="text" placeholder="Your Phone Number" required><br><br>
-                <input class="form-input" type="text" placeholder="Email Address" required><br><br>
-                <textarea class = "form-info" type="text" placeholder="Type your message Here..." reqiured></textarea><br><br>
-                <button name="submit" type="submit" id="submit-form" onclick ="send()" >Submit</button>
+                <input class="form-input" name ="name" type="text" placeholder="Your name" required><br><br>
+                <input class="form-input" name ="surname" type="text" placeholder="Your Surname" required><br><br>
+                <input class="form-input" name ="cellnumber" type="text" placeholder="Your Phone Number" required><br><br>
+                <input class="form-input" name ="Email" type="text" placeholder="Email Address" required><br><br>
+                <textarea class = "form-info" name = "message" type="text" placeholder="Type your message Here..." reqiured></textarea><br><br>
+                <button name="submit" type="submit" id="submit-form" >Submit</button>
                 <button name="clear" type="button" id="clear-form" value = "reset-form" onclick="reset()">Clear</button>
             </form>
            
