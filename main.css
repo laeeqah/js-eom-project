@@ -183,6 +183,14 @@ img,
 .my-info{
     text-align: center;
 }
+
+ul{
+    display: inline-block;
+}
+
+li{
+    text-align: left;
+}
 /*testimonial changes(testimonial.html)*/
 
 .cards {
@@ -481,22 +489,23 @@ textarea {
     }
 }
 
-/*@media (max-width: 768px){
+@media (max-width: 768px){
     .links{
 
     }
 
-    .table-for-contacts{
-        display: block;
-        padding-left:67px;
-       
+    .right-side{
+        padding-right: inherit;
     }
 
+    .quote-border{
+        display: inline-block;
+    }
 
     .footer-decor{
 
     }
-}*/
+}
 
 @media (max-width: 1024px ){ /*Laptop size*/
   .links{
@@ -505,7 +514,7 @@ textarea {
     }
 
     ul{
-        display:inline-block
+        display:inline-block;
     }
     
     li{
@@ -516,7 +525,7 @@ textarea {
     .row2,
     .row3 {
         display: inline-table;
-        padding-inline-start: 225px;
+        
     }
 
 
@@ -528,7 +537,7 @@ textarea {
 
     .table-for-contacts{
         display: block;
-        padding-left:80px;
+        
        
     }
 
