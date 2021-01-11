@@ -27,7 +27,7 @@ body {
     background-image: url("images/stars-at-night.jpg");
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 41px;
+    padding-left: 41px;
 }
 
 /* This will style the link in the navigation bar */
@@ -38,16 +38,19 @@ body {
     margin: 0px;
 }
 
-.navbar a {
+/* Changes the font color in the navbar */
+.navbar a { 
     color: white;
 }
 
+/* Changes the background when hovering the links in the navigation bar */
 .links:hover {
     background-color: rgb(24, 0, 82);
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
+/* These are the changes to the quote and the picture on Home page */
 .quote-border{
     padding-right:80px;
     height: 345px;
@@ -69,6 +72,8 @@ table{
     width: 80%;
     height: 50%;
 }
+
+/* Footer changes */
 .footer-decor {
     position: relative;
     width: 100%;
@@ -132,6 +137,7 @@ table{
 
 /*Changes to About page(about.html)*/
 
+/* Changes to the picture */
 .profile {
     padding-top: 40px;
     text-align: center;
@@ -148,6 +154,7 @@ img,
     height: 340px;
 }
 
+/* Changes to the social icons and the skills bar */
 .icon-links2 {
     width: 60px;
     height: 50px;
@@ -180,12 +187,13 @@ img,
 .html {width: 90%; background-color: #460066;} 
 .css {width: 80%; background-color: #00ff80;} 
 .js {width: 65%; background-color: #ffd000;} 
-.python-tkinter{width: 65%; background-color: #2bff00;}
+.python-tkinter{width: 68%; background-color: #2bff00;}
 
 .my-info{
     text-align: center;
 }
 
+/* CHanges to the duties in the abot page */
 ul{
     display: inline-block;
 }
@@ -241,9 +249,9 @@ li{
 }
 
 
-/*portfolio changes*/
+/*Portfolio changes(portfolio.html)*/
 
-/* Styling for the portfolio page */
+/* Styling for Projects */
 h1{
     text-align: center;
 }
@@ -283,7 +291,7 @@ h1{
 }
 
 
-/*contact changes(contact.html)*/
+/*Contact changes(contact.html)*/
 
 /* Form and contact styling for the contact page  */
 .outer-form {
@@ -349,22 +357,80 @@ textarea {
 
 /*Media Responsives*/
 
-@media (max-width: 375px){ 
-    .row1,
-    .row2,
-    .row3 {
-        display: block;
-        padding-left: 32px;
+@media screen and (min-width:319px) and (max-width: 361px) {
+    .column {
+       padding: initial;
+        padding-top: inherit;
+    }
+
+    .cards{
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 375px){ 
+    .column{
+        display: flex;
         
     }
 
-   
+    .cards{
+
+    }
     .main-heading{
         width: inherit;
     
     }
 }
-@media  (max-width: 600px){
+
+@media screen and (max-width: 425px){
+    .navbar {
+        text-align: center;
+        width: 100%;
+        display: grid;
+    }
+
+
+    .quote-border{
+        padding:0px;
+        height: 317px;
+        padding-top: 58px;
+    }
+
+    .quote {
+        font-size: 30px;
+    }
+
+    .right-side{
+        padding-right: 0px;
+    }
+    
+    .next-to-quote{
+        width: 150px;
+        height: 300px;
+    }
+
+    table{
+        padding-left:0px;
+    }
+    /*About page*/
+    
+    
+    /*Portfolio page media changes*/
+    .row1,
+    .row2,
+    .row3 {
+        display: block;
+        
+    }
+
+      /*Contact page Media Changes*/
+    .outer-form {
+        padding-left: 5px;
+    }
+}
+
+@media screen and (max-width: 600px){
     /*Index.html(Home page)*/
     .main-heading {
         /*changes to the main header*/
@@ -372,7 +438,7 @@ textarea {
     }
 
     .navbar {
-       padding-right: 0px; 
+       padding-left: 0px; 
        
     }
 
@@ -446,8 +512,7 @@ textarea {
     }
 }  
 
-
-@media  (max-width: 425px){
+@media screen and (max-width: 600px){
     .navbar {
         text-align: center;
         width: 100%;
@@ -494,9 +559,9 @@ textarea {
     }
 }
 
-@media (max-width: 768px){
+@media screen and (max-width: 768px){
     .links{
-
+        padding-inline: 34px;
     }
 
     .right-side{
@@ -507,15 +572,26 @@ textarea {
         display: inline-block;
     }
 
-    .footer-decor{
+    table{
+        padding-left: 0px;
+    }
 
+    .row1,
+    .row2,
+    .row3 {
+        display: none;
+        
+    }
+
+    .table-for-contacts{
+        padding-left: 10px;
     }
 }
 
-@media (max-width: 1024px ){ /*Laptop size*/
+@media screen and (max-width: 1024px ){ /*Laptop size*/
   .links{
         display: inline;
-        padding-inline: 66px;
+       
     }
 
     ul{
