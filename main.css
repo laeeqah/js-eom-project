@@ -156,11 +156,12 @@ p {
 }
 .section {
     padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 10px;
+    margin-bottom: 20px;
+    border-radius: 182px;
+    margin-top: 19px;
 }
 #header {
-    background-color: #00439b;
+    background-image: url("images/blue-sof-waves.jpg");
     background-size: cover;
 }
 #header img {
@@ -180,23 +181,23 @@ p {
 
 #about-section{
     display: flex;
-    margin-top: 10px;
+    margin-top: 20px;
     border: dodgerblue dotted 10px;
 }
 
 #about-section #edu{
     padding: 15px;
-    text-align: center;
+    text-align: left;
 }
 
 #about-section #exp{
     padding: 15px;
-    text-align: center;
+    text-align: left;
 }
 
 #about-section #about-contact{
     padding: 15px;
-    text-align:center ;
+    text-align:left;
 }
 /* Changes to the picture */
 /* .profile {
