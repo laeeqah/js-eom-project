@@ -60,7 +60,7 @@ body {
     text-align: center;
     border: black dotted 5px;
 }
-table{
+.home-quote table{
     padding-left: 150px;
 }
 
@@ -136,15 +136,82 @@ table{
 
 
 /*Changes to About page(about.html)*/
+h1 {
+    color: #ffffff;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 0px 0;
+}
+h1 span {
+    border: 4px dashed #20bcd5;
+    padding: 10px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.img-circle {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.section {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#header {
+    background-color: #00439b;
+    background-size: cover;
+}
+#header img {
+    display: block;
+    width: 10%;
+    height: 50%;
+    margin: auto;
+}
+#header p {
+    font-size: 25pt;
+    color: #3b464c;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
 
+#about-section{
+    display: flex;
+    margin-top: 10px;
+    border: dodgerblue dotted 10px;
+}
+
+#about-section #edu{
+    padding: 15px;
+    text-align: center;
+}
+
+#about-section #exp{
+    padding: 15px;
+    text-align: center;
+}
+
+#about-section #about-contact{
+    padding: 15px;
+    text-align:center ;
+}
 /* Changes to the picture */
-.profile {
+/* .profile {
+    display: flex;
     padding-top: 40px;
     text-align: center;
 }
+
+
+.my-info h3 p ul li{
+
+}
 .my-photo{
     height: 50%;
-    border-radius: 50px;
+    padding: 5px;
 }
 
 img,
@@ -164,7 +231,7 @@ img,
     width: 86px;
     height: 50px;
 }
-
+/*
 .skills-bar{
     padding-right: 200px;
     padding-left: 200px;
@@ -181,12 +248,12 @@ img,
     text-align: right; 
     padding-top: 5px; 
     padding-bottom: 5px; 
-    color: #d6d6d6b6;  
+    color: #ffffffb6;  
 }
 
 .html {width: 90%; background-color: #460066;} 
-.css {width: 80%; background-color: #00ff80;} 
-.js {width: 60%; background-color: #ffd000;} 
+.css {width: 80%; background-color: #ff0080;} 
+.js {width: 60%; background-color: #ca0000;} 
 .python-tkinter{width: 68%; background-color: #2bff00;}
 
 .my-info{
@@ -199,7 +266,7 @@ ul{
 }
 
 li{
-    text-align: left;
+    text-align: left; 
 }
 /*testimonial changes(testimonial.html)*/
 
@@ -227,7 +294,10 @@ li{
 .cards:hover .flip-inside-card {
     transform: rotateY(180deg);
 }
-
+.person-photo{
+    width: 100%;
+    height: 100%;
+}
 .flip-to-front,
 .flip-to-back {
     position: absolute;
@@ -326,7 +396,7 @@ textarea {
 #submit-form {
     border-radius: 5px;
     height: 30px;
-    width: 300px;
+    width: 140px;
     background-color: #129ceb;
 }
 
@@ -338,7 +408,7 @@ textarea {
 #clear-form {
     border-radius: 5px;
     height: 30px;
-    width: 300px;
+    width: 140px;
     background-color: #129ceb
 }
 
@@ -351,8 +421,11 @@ textarea {
     padding-top: 5px;
     padding-left: 349px;
 }
-.contacts-under-form{
+.contacts-under-form  ul li{
     text-align: center;
+    display: inline;
+    list-style: none;
+    padding-inline: 170px;
 }
 
 /*Media Responsives*/
@@ -480,7 +553,7 @@ textarea {
         height: 300px;
     }
 
-    table{
+    .home-quote table{
         padding-left:0px;
     }
     /*About page*/
@@ -542,7 +615,10 @@ textarea {
         
     }
 
-      /*Contact page Media Changes*/
+    /*Contact page Media Changes*/
+    .contacts-under-form li{
+        display: inline;
+    }
     .outer-form {
         padding-left: 5px;
     }
@@ -571,6 +647,10 @@ textarea {
     .row3 {
         display: block;
         
+    }
+
+    .contacts-under-form li{
+        display: inline;
     }
 
     .table-for-contacts{
