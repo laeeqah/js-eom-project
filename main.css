@@ -1,204 +1,210 @@
 /* Changes for the home page(index.html)*/
 
 html {
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
 }
 
 body {
-    /*changes to the font, font color and size for the whole web page*/
-    font: normal 16px sans-serif;
-    color: white;
-    margin: 0px;
-    padding: 0px;
-    background-image: linear-gradient(to top, #0066ff, #0f54f3, #1d40e6, #2929d8, #3300c9);
+  /*changes to the font, font color and size for the whole web page*/
+  font: normal 16px sans-serif;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background-image: linear-gradient(
+    to top,
+    #0066ff,
+    #0f54f3,
+    #1d40e6,
+    #2929d8,
+    #3300c9
+  );
 }
 
 .main-heading {
-    /*changes to the main header*/
-    text-align: center;
-    background-image: url("images/stars-at-night.jpg");
-    padding-top: 80px;
-    padding-bottom: 100px;
+  /*changes to the main header*/
+  text-align: center;
+  background-image: url("images/stars-at-night.jpg");
+  padding-top: 80px;
+  padding-bottom: 100px;
 }
 
-.navbar { /*This will style the navigation bar*/
-    background-image: url("images/stars-at-night.jpg");
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 41px;
+.navbar {
+  /*This will style the navigation bar*/
+  background-image: url("images/stars-at-night.jpg");
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 41px;
 }
 
 /* This will style the link in the navigation bar */
-.links { 
-    padding-right: 134px;
-    padding-left: 38px;
-    font-weight: bold;
-    margin: 0px;
+.links {
+  padding-right: 134px;
+  padding-left: 38px;
+  font-weight: bold;
+  margin: 0px;
 }
 
 /* Changes the font color in the navbar */
-.navbar a { 
-    color: white;
+.navbar a {
+  color: white;
 }
 
 /* Changes the background when hovering the links in the navigation bar */
 .links:hover {
-    background-color: rgb(85, 13, 255);
-    padding-top: 10px;
-    padding-bottom: 10px;
+  background-color: rgb(85, 13, 255);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* These are the changes to the quote and the picture on Home page */
-.quote-border{
-    padding-right:80px;
-    height: 345px;
+.quote-border {
+  padding-right: 80px;
+  height: 345px;
 }
 .quote {
-    font-size: 45px;
-    text-align: center;
-    border: black solid 5px;
-    padding: 64px;
+  font-size: 45px;
+  text-align: center;
+  border: black solid 5px;
+  padding: 64px;
 }
-.home-quote table{
-    padding-left: 150px;
-}
-
-.right-side{
-    padding-right: 115px;
+.home-quote table {
+  padding-left: 150px;
 }
 
-.next-to-quote{
-    width: 80%;
-    height: 50%;
+.right-side {
+  padding-right: 115px;
+}
+
+.next-to-quote {
+  width: 80%;
+  height: 50%;
 }
 
 /* Footer changes */
 .footer-decor {
-    position: relative;
-    width: 100%;
-    background-image: url("images/stars-at-night.jpg");
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left;
-    font: normal 16px sans-serif;
-    padding: 45px 50px;
-    bottom: 0px;
+  position: relative;
+  width: 100%;
+  background-image: url("images/stars-at-night.jpg");
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+  bottom: 0px;
 }
 
 .footer-decor .footer-left p {
-    color: #7a7a7a;
-    font-size: 14px;
-    margin: 0;
+  color: #7a7a7a;
+  font-size: 14px;
+  margin: 0;
 }
-
 
 /* Footer links */
 
 .footer-decor p.footer-links {
-    font-size: 18px;
-    font-weight: bold;
-    color: #ffffff;
-    margin: 0 0 10px;
-    padding: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
 }
 
 .footer-decor p.footer-links a {
-    display: inline-block;
-    line-height: 1.8;
-    text-decoration: none;
-    color: inherit;
-    transition: ease .25s;
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease 0.25s;
 }
 
 .footer-decor .footer-links a:before {
-    content: "·";
-    font-size: 20px;
-    left: 0;
-    color: #fff;
-    display: inline-block;
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
 }
 
 .footer-decor .footer-links .link-1:before {
-    content: none;
+  content: none;
 }
 
 .footer-decor .footer-right {
-    float: right;
-    margin-top: 6px;
-    max-width: 180px;
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
 }
 
 .footer-decor p.footer-links a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
 
 /*Changes to About page(about.html)*/
 h1 {
-    color: #ffffff;
-    text-align: center;
-    padding: 18px 0 18px 0;
-    margin: 0 0 0px 0;
+  color: #ffffff;
+  text-align: center;
+  padding: 18px 0 18px 0;
+  margin: 0 0 0px 0;
 }
 h1 span {
-    border: 4px dashed #20bcd5;
-    padding: 10px;
+  border: 4px dashed #20bcd5;
+  padding: 10px;
 }
 p {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 .img-circle {
-    border: 3px solid white;
-    border-radius: 50%;
+  border: 3px solid white;
+  border-radius: 50%;
 }
 .section {
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 182px;
-    margin-top: 19px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 182px;
+  margin-top: 19px;
 }
 #header {
-    background-image: url("images/blue-sof-waves.jpg");
-    background-size: cover;
+  background-image: url("images/blue-sof-waves.jpg");
+  background-size: cover;
 }
 #header img {
-    display: block;
-    width: 10%;
-    height: 50%;
-    margin: auto;
+  display: block;
+  width: 10%;
+  height: 50%;
+  margin: auto;
 }
 #header p {
-    font-size: 25pt;
-    color: #3b464c;
-    padding-top: 5px;
-    margin: 0;
-    font-weight: bold;
-    text-align: center;
+  font-size: 25pt;
+  color: #3b464c;
+  padding-top: 5px;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
 }
 
-#about-section{
-    display: flex;
-    margin-top: 20px;
-    border: dodgerblue dotted 10px;
+#about-section {
+  display: flex;
+  margin-top: 20px;
+  border: dodgerblue dotted 10px;
 }
 
-#about-section #edu{
-    padding: 15px;
-    text-align: left;
+#about-section #edu {
+  padding: 15px;
+  text-align: left;
 }
 
-#about-section #exp{
-    padding: 15px;
-    text-align: left;
+#about-section #exp {
+  padding: 15px;
+  text-align: left;
 }
 
-#about-section #about-contact{
-    padding: 15px;
-    text-align:left;
+#about-section #about-contact {
+  padding: 15px;
+  text-align: left;
 }
 /* Changes to the picture */
 /* .profile {
@@ -225,13 +231,13 @@ img,
 
 /* Changes to the social icons and the skills bar */
 .icon-links2 {
-    width: 60px;
-    height: 50px;
+  width: 60px;
+  height: 50px;
 }
 
 .icon-links1 {
-    width: 86px;
-    height: 50px;
+  width: 86px;
+  height: 50px;
 }
 /*
 .skills-bar{
@@ -241,417 +247,424 @@ img,
 }
 
 /* This is for the styling of the skills bar */
-.bars{
-    width: 100%;
-    background-color: #e7e7e79a;
+.bars {
+  width: 100%;
+  background-color: #e7e7e79a;
 }
 
-.skills{
-    text-align: right; 
-    padding-top: 5px; 
-    padding-bottom: 5px; 
-    color: #ffffffb6;  
+.skills {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #ffffffb6;
 }
 
-.html {width: 90%; background-color: #460066;} 
-.css {width: 80%; background-color: #ff0080;} 
-.js {width: 60%; background-color: #ca0000;} 
-.python-tkinter{width: 68%; background-color: #2bff00;}
+.html {
+  width: 90%;
+  background-color: #460066;
+}
+.css {
+  width: 80%;
+  background-color: #ff0080;
+}
+.js {
+  width: 60%;
+  background-color: #ca0000;
+}
+.python-tkinter {
+  width: 68%;
+  background-color: #2bff00;
+}
 
-.my-info{
-    text-align: center;
+.my-info {
+  text-align: center;
 }
 
 /* CHanges to the duties in the abot page */
-ul{
-    display: inline-block;
+ul {
+  display: inline-block;
 }
 
-li{
-    text-align: left; 
+li {
+  text-align: left;
 }
 /*testimonial changes(testimonial.html)*/
 
 /* Styling for the flip-cards */
 .cards {
-    background-color: transparent;
-    width: 300px;
-    height: 325px;
-    perspective: 1000px;
-    display: inline-block;
-    padding-top: 20px;
-    padding-inline: 59px;
-    padding-bottom: 20px;
+  background-color: transparent;
+  width: 300px;
+  height: 325px;
+  perspective: 1000px;
+  display: inline-block;
+  padding-top: 20px;
+  padding-inline: 59px;
+  padding-bottom: 20px;
 }
 
 .flip-inside-card {
-    position: relative;
-    width: 100%;
-    height: 325px;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
+  position: relative;
+  width: 100%;
+  height: 325px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
 }
 
 .cards:hover .flip-inside-card {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
-.person-photo{
-    width: 100%;
-    height: 100%;
+.person-photo {
+  width: 100%;
+  height: 100%;
 }
 .flip-to-front,
 .flip-to-back {
-    position: absolute;
-    width: 100%;
-    height: 340px;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 340px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .flip-to-front {
-    background-color: #bbb;
-    color: black;
+  background-color: #bbb;
+  color: black;
 }
 
 .flip-to-back {
-    background-color: #000cb6;
-    color: rgb(255, 255, 255);
-    transform: rotateY(180deg);
+  background-color: #000cb6;
+  color: rgb(255, 255, 255);
+  transform: rotateY(180deg);
 }
-
 
 /*Portfolio changes(portfolio.html)*/
 
 /* Styling for Projects */
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 .row1,
-.row2,
-.row3 {
-    display: flex;
+.row2 {
+  display: flex;
+  gap: 50px;
+  text-align: center;
 }
 
-/*.row1::after,
+.row3,
+.row4 {
+  display: flex;
+  gap: 0px;
+  text-align: center;
+}
+.row1::after,
 .row2::after,
-.row3::after {
-    content: "";
-    display: table;
-    clear: both;
-}*/
+.row3::after,
+.row4::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .column {
-    padding: 25px;
+  padding: 45px;
+}
+
+.column-container {
+  display: flex;
+  gap: 150px;
 }
 
 .text-appear,
 .project-info {
-    background-color: dodgerblue;
-    color: rgb(255, 255, 255);
-    width: min-content;
-    padding: 15px;
+  background-color: dodgerblue;
+  color: rgb(255, 255, 255);
+  width: min-content;
+  padding: 15px;
 }
 
 .project-pic {
-    width: 240px;
-    height: 270px;
+  width: 240px;
+  height: 270px;
 }
-
 
 /*Contact changes(contact.html)*/
 
 /* Form and contact styling for the contact page  */
 .outer-form {
-    padding: 10px;
+  padding: 10px;
 }
 
 .form-layout {
-    margin: 0 auto;
-    border-radius: 5px;
-    border: #129ceb groove 5px;
-    width: fit-content;
-    padding: 42px;
-    width: min-content;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: #129ceb groove 5px;
+  width: fit-content;
+  padding: 42px;
+  width: min-content;
 }
 
 .contact {
-    text-align: center;
+  text-align: center;
 }
 
 .form-input {
-    border-radius: 5px;
-    height: 30px;
-    width: 300px;
+  border-radius: 5px;
+  height: 30px;
+  width: 300px;
 }
 
 textarea {
-    width: 300px;
-    height: 100px;
-    border-radius: 5px;
+  width: 300px;
+  height: 100px;
+  border-radius: 5px;
 }
 
 #submit-form {
-    border-radius: 5px;
-    height: 30px;
-    width: 140px;
-    background-color: #129ceb;
+  border-radius: 5px;
+  height: 30px;
+  width: 140px;
+  background-color: #129ceb;
 }
 
 #submit-form:hover {
-    background-color: #006416;
-    transition: 1s;
+  background-color: #006416;
+  transition: 1s;
 }
 
 #clear-form {
-    border-radius: 5px;
-    height: 30px;
-    width: 140px;
-    background-color: #129ceb
+  border-radius: 5px;
+  height: 30px;
+  width: 140px;
+  background-color: #129ceb;
 }
 
 #clear-form:hover {
-    background-color: #00439b;
-    transition: 1s;
+  background-color: #00439b;
+  transition: 1s;
 }
 
-.table-for-contacts{
-    padding-top: 5px;
-    padding-left: 349px;
+.table-for-contacts {
+  padding-top: 5px;
+  padding-left: 349px;
 }
-.contacts-under-form  ul li{
-    text-align: center;
-    display: inline;
-    list-style: none;
-    padding-inline: 170px;
+.contacts-under-form ul li {
+  text-align: center;
+  display: inline;
+  list-style: none;
+  padding-inline: 170px;
 }
 
 /*Media Responsives*/
 
-@media screen and (max-width: 375px){ 
-    .row1,
-    .row2,
-    .row3 {
-        display: block;
-        padding-left: 32px;
-        
-    }
+@media screen and (max-width: 375px) {
+  .row1,
+  .row2,
+  .row3 {
+    display: block;
+    padding-left: 32px;
+  }
 
-   
-    .main-heading{
-        width: inherit;
-    
-    }
+  .main-heading {
+    width: inherit;
+  }
 }
-@media screen and (max-width: 600px){
-    /*Index.html(Home page)*/
-    .main-heading {
-        /*changes to the main header*/
-        width: 100%;
-    }
+@media screen and (max-width: 600px) {
+  /*Index.html(Home page)*/
+  .main-heading {
+    /*changes to the main header*/
+    width: 100%;
+  }
 
-    .navbar {
-        padding-left: 0px; 
-        text-align: center;
-        width: 100%;
-        display: grid;
-    
+  .navbar {
+    padding-left: 0px;
+    text-align: center;
+    width: 100%;
+    display: grid;
+  }
 
-    }
+  .links {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+    display: block;
+  }
 
-    .links {
-        padding-left: 0px;
-        padding-right: 0px;
-        margin: 0px;
-        display: block;
-    }
+  .quote-border {
+    padding: 0px;
+    height: 317px;
+    padding-top: 58px;
+  }
 
-    .quote-border{
-        padding:0px;
-        height: 317px;
-        padding-top: 58px;
-    }
+  .quote {
+    font-size: 30px;
+  }
 
-    .quote {
-        font-size: 30px;
-    }
+  .right-side {
+    padding-right: 0px;
+  }
 
-    .right-side{
-        padding-right: 0px;
-    }
-    
-    .next-to-quote{
-        width: 150px;
-        height: 300px;
-    }
+  .next-to-quote {
+    width: 150px;
+    height: 300px;
+  }
 
-    table{
-        padding-left:0px;
-    }
+  table {
+    padding-left: 0px;
+  }
 
-    /*About page*/
-    .skills-bar{
-        padding-right: 50px;
-        padding-left: 50px;
-        padding-bottom: 50px;
-    }
+  /*About page*/
+  .skills-bar {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
 
-    ul{
-        display:inline-block
-    }
-    
-    li{
-       text-align: left;
-    }
-    /*Portfolio page media changes*/
-    .row1,
-    .row2,
-    .row3 {
-        display: block;
-        padding: 150px;
-        
-        
-    }
+  ul {
+    display: inline-block;
+  }
 
-    /*Testimonial page media changes*/
-    .cards{
-        display: block;
-        padding-left: 150px;
-    }
+  li {
+    text-align: left;
+  }
+  /*Portfolio page media changes*/
+  .row1,
+  .row2,
+  .row3 {
+    display: block;
+    padding: 150px;
+  }
 
-    /*Contact page Media Changes*/
-    .outer-form {
-        display: block;
-        padding: 0px;
-    }
-    
-    .table-for-contacts{
-        padding-left: 0px;
-    }
-}  
+  /*Testimonial page media changes*/
+  .cards {
+    display: block;
+    padding-left: 150px;
+  }
 
-@media screen and (max-width: 600px){
-  
-    .quote-border{
-        padding:0px;
-        height: 317px;
-        padding-top: 58px;
-    }
+  /*Contact page Media Changes*/
+  .outer-form {
+    display: block;
+    padding: 0px;
+  }
 
-    .quote {
-        font-size: 30px;
-    }
-
-    .right-side{
-        padding-right: 0px;
-    }
-    
-    .next-to-quote{
-        width: 150px;
-        height: 300px;
-    }
-
-    .home-quote table{
-        padding-left:0px;
-    }
-    /*About page*/
-    
-    
-    /*Portfolio page media changes*/
-    .row1,
-    .row2,
-    .row3 {
-        display: block;
-        
-    }
-
-      /*Contact page Media Changes*/
-    .outer-form {
-        padding-left: 5px;
-    }
+  .table-for-contacts {
+    padding-left: 0px;
+  }
 }
 
+@media screen and (max-width: 600px) {
+  .quote-border {
+    padding: 0px;
+    height: 317px;
+    padding-top: 58px;
+  }
 
-@media screen and (max-width: 425px){
-    .navbar {
-        text-align: center;
-        width: 100%;
-        display: grid;
-    }
+  .quote {
+    font-size: 30px;
+  }
 
+  .right-side {
+    padding-right: 0px;
+  }
 
-    .quote-border{
-        padding:0px;
-        height: 317px;
-        padding-top: 58px;
-    }
+  .next-to-quote {
+    width: 150px;
+    height: 300px;
+  }
 
-    .quote {
-        font-size: 30px;
-    }
+  .home-quote table {
+    padding-left: 0px;
+  }
+  /*About page*/
 
-    .right-side{
-        padding-right: 0px;
-    }
-    
-    .next-to-quote{
-        width: 150px;
-        height: 300px;
-    }
+  /*Portfolio page media changes*/
+  .row1,
+  .row2,
+  .row3 {
+    display: block;
+  }
 
-    table{
-        padding-left:0px;
-    }
-    /*About page*/
-    
-    
-    /*Portfolio page media changes*/
-    .row1,
-    .row2,
-    .row3 {
-        display: block;
-        
-    }
-
-    /*Contact page Media Changes*/
-    .contacts-under-form li{
-        display: inline;
-    }
-    .outer-form {
-        padding-left: 5px;
-    }
+  /*Contact page Media Changes*/
+  .outer-form {
+    padding-left: 5px;
+  }
 }
 
+@media screen and (max-width: 425px) {
+  .navbar {
+    text-align: center;
+    width: 100%;
+    display: grid;
+  }
 
-@media screen and (max-width: 768px){
-    .links{
-        padding-inline: 34px;
-    }
+  .quote-border {
+    padding: 0px;
+    height: 317px;
+    padding-top: 58px;
+  }
 
-    .right-side{
-        padding-right: inherit;
-    }
+  .quote {
+    font-size: 30px;
+  }
 
-    .quote-border{
-        display: inline-block;
-    }
+  .right-side {
+    padding-right: 0px;
+  }
 
-    table{
-        padding-left: 0px;
-    }
+  .next-to-quote {
+    width: 150px;
+    height: 300px;
+  }
 
-    .row1,
-    .row2,
-    .row3 {
-        display: block;
-        
-    }
+  table {
+    padding-left: 0px;
+  }
+  /*About page*/
 
-    .contacts-under-form li{
-        display: inline;
-    }
+  /*Portfolio page media changes*/
+  .row1,
+  .row2,
+  .row3 {
+    display: block;
+  }
 
-    .table-for-contacts{
-        padding-left: 10px;
-    }
-}  
+  /*Contact page Media Changes*/
+  .contacts-under-form li {
+    display: inline;
+  }
+  .outer-form {
+    padding-left: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .links {
+    padding-inline: 34px;
+  }
+
+  .right-side {
+    padding-right: inherit;
+  }
+
+  .quote-border {
+    display: inline-block;
+  }
+
+  table {
+    padding-left: 0px;
+  }
+
+  .row1,
+  .row2,
+  .row3 {
+    display: block;
+  }
+
+  .contacts-under-form li {
+    display: inline;
+  }
+
+  .table-for-contacts {
+    padding-left: 10px;
+  }
+}
