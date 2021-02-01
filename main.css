@@ -45,7 +45,7 @@ body {
 
 /* Changes the background when hovering the links in the navigation bar */
 .links:hover {
-    background-color: rgb(24, 0, 82);
+    background-color: rgb(85, 13, 255);
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -58,7 +58,8 @@ body {
 .quote {
     font-size: 45px;
     text-align: center;
-    border: black dotted 5px;
+    border: black solid 5px;
+    padding: 64px;
 }
 .home-quote table{
     padding-left: 150px;
@@ -330,16 +331,15 @@ h1{
 .row2,
 .row3 {
     display: flex;
-    padding-right: 10px;
 }
 
-.row1::after,
+/*.row1::after,
 .row2::after,
 .row3::after {
     content: "";
     display: table;
     clear: both;
-}
+}*/
 
 .column {
     padding: 25px;
@@ -352,10 +352,7 @@ h1{
     width: min-content;
     padding: 15px;
 }
-.column:hover{
-    box-shadow:0 0 5px rgb(145, 193, 255);
-    transition: opacity 1 ease-in-out;
-}
+
 .project-pic {
     width: 240px;
     height: 270px;
