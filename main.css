@@ -351,16 +351,8 @@ h1 {
   text-align: center;
 }
 
-.row3,
-.row4 {
-  display: flex;
-  gap: 0px;
-  text-align: center;
-}
 .row1::after,
-.row2::after,
-.row3::after,
-.row4::after {
+.row2::after {
   content: "";
   display: table;
   clear: both;
@@ -375,9 +367,12 @@ h1 {
   gap: 150px;
 }
 
+.column-container2 {
+  display: flex;
+  gap: 35px;
+}
 .text-appear,
 .project-info {
-  background-color: dodgerblue;
   color: rgb(255, 255, 255);
   width: min-content;
   padding: 15px;
@@ -458,15 +453,24 @@ textarea {
 /*Media Responsives*/
 
 @media screen and (max-width: 375px) {
-  .row1,
-  .row2,
-  .row3 {
+  #about-section {
     display: block;
-    padding-left: 32px;
   }
 
+  .column-container,
+  .column-container2 {
+    display: inline;
+  }
+
+  .project-info {
+    padding-bottom: 10px;
+  }
   .main-heading {
     width: inherit;
+  }
+
+  .cards {
+    padding-left: 0px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -532,7 +536,6 @@ textarea {
   .row2,
   .row3 {
     display: block;
-    padding: 150px;
   }
 
   /*Testimonial page media changes*/
