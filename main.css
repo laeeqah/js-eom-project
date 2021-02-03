@@ -59,26 +59,29 @@ body {
 }
 
 /* These are the changes to the quote and the picture on Home page */
+.home-quote {
+  margin-left: 80px;
+}
 .quote-border {
-  padding-right: 80px;
-  height: 345px;
+  padding-right: 0px;
 }
 .quote {
-  font-size: 45px;
+  background-image: url("images/stars-at-night.jpg");
   text-align: center;
-  border: black solid 5px;
-  padding: 64px;
+  border-left: solid white;
+  border-right: solid white;
+  border-radius: 5%;
+  padding: 114px;
 }
 .home-quote table {
   padding-left: 150px;
 }
 
 .right-side {
-  padding-right: 115px;
 }
 
 .next-to-quote {
-  width: 80%;
+  width: 50%;
   height: 50%;
 }
 
@@ -317,7 +320,9 @@ li {
 .person-photo {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
+
 .flip-to-front,
 .flip-to-back {
   position: absolute;
@@ -473,6 +478,73 @@ textarea {
     padding-left: 0px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .navbar {
+    text-align: center;
+    width: 100%;
+    display: grid;
+  }
+  .home-quote {
+    margin-left: 0px;
+  }
+  .quote-border {
+    padding: 0px;
+    height: 317px;
+    padding-top: 58px;
+  }
+
+  .quote {
+    font-size: 30px;
+    padding: 33px;
+    display: inline-table;
+  }
+
+  .right-side {
+    padding-right: 0px;
+  }
+
+  .next-to-quote {
+    width: 150px;
+    height: 300px;
+  }
+
+  table {
+    padding-left: 0px;
+  }
+  /*About page*/
+  #about-section {
+    display: block;
+  }
+  /*Portfolio page media changes*/
+  .row1,
+  .row2 {
+    display: block;
+  }
+
+  .column-container {
+    display: block;
+    padding-left: 20px;
+  }
+
+  .column-container2 {
+    display: block;
+    padding-left: 25px;
+  }
+
+  .cards {
+    display: block;
+    padding-left: 0px;
+  }
+  /*Contact page Media Changes*/
+  .contacts-under-form li {
+    display: inline;
+  }
+  .outer-form {
+    padding-left: 5px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   /*Index.html(Home page)*/
   .main-heading {
@@ -533,8 +605,7 @@ textarea {
   }
   /*Portfolio page media changes*/
   .row1,
-  .row2,
-  .row3 {
+  .row2 {
     display: block;
   }
 
@@ -582,59 +653,11 @@ textarea {
 
   /*Portfolio page media changes*/
   .row1,
-  .row2,
-  .row3 {
+  .row2 {
     display: block;
   }
 
   /*Contact page Media Changes*/
-  .outer-form {
-    padding-left: 5px;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .navbar {
-    text-align: center;
-    width: 100%;
-    display: grid;
-  }
-
-  .quote-border {
-    padding: 0px;
-    height: 317px;
-    padding-top: 58px;
-  }
-
-  .quote {
-    font-size: 30px;
-  }
-
-  .right-side {
-    padding-right: 0px;
-  }
-
-  .next-to-quote {
-    width: 150px;
-    height: 300px;
-  }
-
-  table {
-    padding-left: 0px;
-  }
-  /*About page*/
-
-  /*Portfolio page media changes*/
-  .row1,
-  .row2,
-  .row3 {
-    display: block;
-  }
-
-  /*Contact page Media Changes*/
-  .contacts-under-form li {
-    display: inline;
-  }
   .outer-form {
     padding-left: 5px;
   }
@@ -658,8 +681,7 @@ textarea {
   }
 
   .row1,
-  .row2,
-  .row3 {
+  .row2 {
     display: block;
   }
 
