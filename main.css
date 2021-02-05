@@ -3,7 +3,7 @@
 html {
   margin: 0px;
   padding: 0px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 body {
@@ -432,9 +432,8 @@ h1 span {
   margin: 0 auto;
   border-radius: 5px;
   border: #129ceb groove 5px;
-  width: fit-content;
-  padding: 42px;
   width: min-content;
+  padding: 24px;
 }
 
 .contact {
@@ -489,12 +488,31 @@ textarea {
 }
 
 /*Media Responsives*/
+@media screen and (max-width: 320px) {
+  .quote {
+    padding: 0px 0px;
+  }
 
-@media screen and (max-width: 375px) {
+  .outer-form {
+    padding: 0px;
+  }
+  .form-layout {
+    display: block;
+    padding: 0px;
+  }
+  .contacts-under-form {
+    text-align: center;
+  }
+  .contacts-under-form li {
+    display: inline;
+    padding-inline: 2px;
+  }
+}
+@media screen and (max-width: 375px) and (min-width: 320px) {
   .navbar {
     display: block;
     text-align: center;
-    padding-left: 0px;
+    padding-left: 60px;
     padding-right: 0px;
   }
 
@@ -503,9 +521,9 @@ textarea {
     padding-left: 0px;
   }
   .next-to-quote {
-    width: 139px;
-    height: 223px;
-    padding-right: 20px;
+    width: 117px;
+    height: 203px;
+    padding-right: 8px;
   }
 
   .quote {
@@ -516,12 +534,19 @@ textarea {
     display: block;
   }
 
+  .row1,
+  .row2 {
+    display: block;
+  }
   .column {
     display: block;
     padding-left: 21px;
     text-align: center;
   }
 
+  .column h1 {
+    font-size: x-large;
+  }
   .column-container,
   .column-container2 {
     display: block;
@@ -540,13 +565,17 @@ textarea {
     width: auto;
     height: 200px;
   }
+
+  .section p {
+    text-align: justify;
+  }
   .cards {
+    display: inline;
     padding-left: 40px;
   }
 
   .form-layout {
     display: block;
-    padding: 27px;
   }
 
   .outer-form {
@@ -556,30 +585,16 @@ textarea {
   .contacts-under-form ul {
     padding-left: 0px;
   }
-  .contacts-under-form li {
+  .contacts-under-form ul li {
     display: inline;
+    padding-inline: 0px;
   }
 }
-/* 
- #about-section {
-  display: block;
-}
 
-.column,
-.row1 {
-  display: block;
-}
-
-.column-container,
-.column-container2 {
-  display: block;
-  gap: 0px;
-}  */
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) and (min-width: 375px) {
   .navbar {
     text-align: center;
-    display: grid;
+    display: block;
     padding-left: 0px;
   }
   .home-quote {
@@ -588,7 +603,7 @@ textarea {
   .quote-border {
     padding: 0px;
     height: 317px;
-    padding-top: 58px;
+    padding-top: 15px;
   }
 
   .quote {
@@ -618,6 +633,11 @@ textarea {
     margin: auto;
   }
 
+  .section p {
+    text-align: justify;
+  }
+
+  /* Testimonial page */
   .column {
     display: block;
   }
@@ -636,152 +656,40 @@ textarea {
     display: block;
   }
 
+  .column h1 {
+    font-size: x-large;
+  }
+
+  .column {
+  }
+
   .column-container {
-    display: block;
-    padding-left: 20px;
+    display: inline-block;
   }
 
   .column-container2 {
-    display: block;
-    padding-left: 25px;
+    display: inline-block;
   }
 
+  .project-info {
+    margin: 30px auto;
+  }
   .cards {
     display: block;
-    padding-left: 65px;
+    padding-inline: 60px;
   }
 
   /*Contact page Media Changes*/
   .contacts-under-form ul li {
     display: inline;
-    padding-inline: 0px;
-    padding: 22px;
+    padding-inline: 22px;
   }
   .outer-form {
-    padding-left: 5px;
+    padding-left: 0px;
   }
 }
 
-/* @media screen and (max-width: 600px) {
-  /* Index.html(Home page)*/
-/* .main-heading { */
-/* changes to the main header */
-/* width: 100%;
-  } */
-
-/* .navbar {
-    padding-left: 0px;
-    text-align: center;
-    width: 100%;
-    display: grid;
-  }
-
-  .links {
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 0px;
-    display: block;
-  }
-
-  .quote-border {
-    padding: 0px;
-    height: 317px;
-    padding-top: 58px;
-  }
-
-  .quote {
-    font-size: 30px;
-  }
-
-  .right-side {
-    padding-right: 0px;
-  }
-
-  .next-to-quote {
-    width: 150px;
-    height: 300px;
-  }
-
-  table {
-    padding-left: 0px;
-  } */
-
-/* About page*/
-/* .skills-bar {
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 50px;
-  }
-
-  ul {
-    display: inline-block;
-  }
-
-  li {
-    text-align: left;
-  }
-
-  /* Portfolio page media changes*/
-/* .row1,
-  .row2 {
-    display: block;
-  } */
-
-/* Testimonial page media changes*/
-/* .cards {
-    display: block;
-    padding-left: 150px;
-  }
-
-  Contact page Media Changes*/
-/* .outer-form {
-    display: block;
-    padding: 0px;
-  }
-
-  .table-for-contacts {
-    padding-left: 0px;
-  }
-}  */
-
-/* @media screen and (max-width: 600px) {
-  .quote-border {
-    padding: 0px;
-    height: 317px;
-    padding-top: 58px;
-  }
-
-  .quote {
-    font-size: 30px;
-  }
-
-  .right-side {
-    padding-right: 0px;
-  }
-
-  .next-to-quote {
-    width: 150px;
-    height: 300px;
-  } */
-
-/* .home-quote table {
-    padding-left: 0px;
-  } */
-/* About page */
-
-/* Portfolio page media changes*/
-/* .row1,
-  .row2 {
-    display: block;
-  } */
-
-/* Contact page Media Changes*/
-/* .outer-form {
-    padding-left: 5px;
-  }
-} */
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 426px) {
   .links {
     padding-inline: 34px;
   }
@@ -791,7 +699,7 @@ textarea {
   }
 
   .quote {
-    padding: 100px;
+    padding: 55px 45px;
     font-size: large;
   }
 
@@ -803,10 +711,18 @@ textarea {
     width: auto;
     height: 250px;
   }
+
+  .section p {
+    text-align: justify;
+  }
+
   table {
     padding-left: 0px;
   }
 
+  .column h1 {
+    font-size: xx-large;
+  }
   .row1,
   .row2 {
     display: block;
@@ -814,14 +730,19 @@ textarea {
 
   .project-info {
     width: min-content;
+    margin-top: 40px auto;
   }
 
-  /* .column-container,
-  .column-container2 {
-  } */
+  .cards {
+    padding-inline: 35px;
+  }
 
-  .contacts-under-form li {
-    display: inline;
+  .contacts-under-form ul {
+    display: block;
+    padding-left: 270px;
+  }
+  .contacts-under-form ul li {
+    padding-inline: 0px;
   }
 
   .table-for-contacts {
