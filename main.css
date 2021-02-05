@@ -673,7 +673,7 @@ textarea {
   }
   .cards {
     display: block;
-    padding-inline: 60px;
+    padding-right: 0px;
   }
 
   /*Contact page Media Changes*/
