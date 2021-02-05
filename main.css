@@ -264,7 +264,7 @@ img,
 }
 
 .html {
-  width: 90%;
+  width: 85%;
   background-color: #460066;
 }
 .css {
@@ -595,7 +595,7 @@ textarea {
   .navbar {
     text-align: center;
     display: block;
-    padding-left: 0px;
+    padding-left: 86px;
   }
   .home-quote {
     margin-left: 0px;
@@ -660,9 +660,6 @@ textarea {
     font-size: x-large;
   }
 
-  .column {
-  }
-
   .column-container {
     display: inline-block;
   }
@@ -723,6 +720,16 @@ textarea {
   .column h1 {
     font-size: xx-large;
   }
+
+  .column {
+    display: list-item;
+  }
+
+  .column-container2 {
+    flex-flow: wrap;
+    justify-content: center;
+  }
+
   .row1,
   .row2 {
     display: block;
