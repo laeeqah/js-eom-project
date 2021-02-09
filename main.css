@@ -59,15 +59,20 @@ body {
 
 .quote-border {
   padding-right: 0px;
+  border-left: white 5px dashed;
+  background-image: url(images/stars-at-night.jpg);
+  border-radius: 196px;
+  border-right: white 5px dashed;
 }
 
 .quote {
-  background-image: url("images/stars-at-night.jpg");
+  /* background-image: url("images/stars-at-night.jpg"); */
   text-align: center;
-  border-left: solid white;
-  border-right: solid white;
-  border-radius: 5%;
+  /* border-left: dashed white;
+  border-right: dashed white;
+  border-radius: 70%;*/
   padding: 114px;
+  font-style: italic;
 }
 
 .home-quote table {
@@ -94,7 +99,7 @@ body {
 }
 
 .footer-decor .footer-left p {
-  color: #7a7a7a;
+  color: #cecece;
   font-size: 14px;
   margin: 0;
 }
@@ -182,7 +187,7 @@ p {
   margin: auto;
 }
 #header p {
-  font-size: 25pt;
+  font-size: 30pt;
   color: #4646e7;
   padding-top: 5px;
   margin: 0;
@@ -209,28 +214,6 @@ p {
 #about-section #about-contact {
   padding: 15px;
   text-align: left;
-}
-/* Changes to the picture */
-/* .profile {
-    display: flex;
-    padding-top: 40px;
-    text-align: center;
-}
-
-
-.my-info h3 p ul li{
-
-}
-.my-photo{
-    height: 50%;
-    padding: 5px;
-}
-
-img,
-.person-photo {
-    border-radius: 20px;
-    width: 300px;
-    height: 340px;
 }
 
 /* Changes to the social icons and the skills bar */
@@ -528,6 +511,7 @@ textarea {
 
   .quote {
     font-size: 20px;
+    padding: 1px;
   }
 
   #about-section {
@@ -602,7 +586,7 @@ textarea {
   }
   .quote-border {
     padding: 0px;
-    height: 317px;
+    height: 270px;
     padding-top: 15px;
   }
 
@@ -618,7 +602,7 @@ textarea {
 
   .next-to-quote {
     width: 150px;
-    height: 300px;
+    height: 250px;
   }
 
   table {
