@@ -12,30 +12,41 @@ body {
   color: white;
   margin: 0px;
   padding: 0px;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(180deg, #020024 0%, #01017e 35%, #4646e7 100%);
+  background: #f4e409;
+  background-image: linear-gradient(
+    to top,
+    #710000,
+    #a63c06,
+    #c36f09,
+    #eeba0b,
+    #f4e409
+  );
 }
 
 .main-heading {
   /* changes to the main header */
   text-align: center;
-  background-image: url("images/stars-at-night.jpg");
+  background-color: #f4e409;
   padding-top: 80px;
   padding-bottom: 100px;
 }
 
 .navbar {
   /* This will style the navigation bar*/
-  background-image: url("images/stars-at-night.jpg");
+  background-color: #f4e409;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 41px;
+  /* padding-left: 41px; */
+  padding-left: 13px;
+  padding-right: 13px;
 }
 
 /* This will style the link in the navigation bar */
 .links {
-  padding-right: 134px;
-  padding-left: 38px;
+  padding-right: 100px;
+  padding-left: 82px;
+  /* padding-right: 134px;
+  padding-left: 38px; */
   font-weight: bold;
   margin: 0px;
 }
@@ -47,7 +58,7 @@ body {
 
 /* Changes the background when hovering the links in the navigation bar */
 .links:hover {
-  background-color: rgba(70, 70, 231, 1);
+  background-color: #c36f09;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -59,10 +70,10 @@ body {
 
 .quote-border {
   padding-right: 0px;
-  border-left: white 5px dashed;
-  background-image: url(images/stars-at-night.jpg);
+  border-left: #710000 5px dashed;
+  background-color: #f4e409;
   border-radius: 196px;
-  border-right: white 5px dashed;
+  border-right: #710000 5px dashed;
 }
 
 .quote {
@@ -88,7 +99,7 @@ body {
 .footer-decor {
   position: relative;
   width: 100%;
-  background-image: url("images/stars-at-night.jpg");
+  background-color: #f4e409;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -99,7 +110,7 @@ body {
 }
 
 .footer-decor .footer-left p {
-  color: #cecece;
+  color: #494949;
   font-size: 14px;
   margin: 0;
 }
@@ -146,13 +157,13 @@ body {
 
 /*Changes to About page(about.html)*/
 h2 {
-  color: #ffffff;
+  color: black;
   text-align: center;
   padding: 18px 0 18px 0;
   margin: 0 0 0px 0;
 }
 h2 span {
-  border: 4px dashed #20bcd5;
+  border: 4px dashed #710000;
   padding: 10px;
 }
 p {
@@ -170,13 +181,13 @@ p {
   margin-top: 19px;
 }
 #header {
-  background-image: radial-gradient(
-    circle,
-    #020024,
-    #00083a,
-    #000c51,
-    #000a68,
-    #01017e
+  background-image: linear-gradient(
+    to top,
+    #710000,
+    #a63c06,
+    #c36f09,
+    #eeba0b,
+    #f4e409
   );
   background-size: cover;
 }
@@ -188,7 +199,7 @@ p {
 }
 #header p {
   font-size: 30pt;
-  color: #4646e7;
+  color: #000000;
   padding-top: 5px;
   margin: 0;
   font-weight: bold;
@@ -198,7 +209,7 @@ p {
 #about-section {
   display: flex;
   margin-top: 20px;
-  border: dodgerblue dotted 10px;
+  border: #710000 dotted 10px;
 }
 
 #about-section #edu {
@@ -236,39 +247,39 @@ p {
 /* This is for the styling of the skills bar */
 .bars {
   width: 100%;
-  background-color: #e7e7e79a;
+  background-color: #7070704b;
 }
 
 .skills {
   text-align: right;
   padding-top: 5px;
   padding-bottom: 5px;
-  color: #ffffffb6;
+  color: #ffffffc4;
 }
 
 .html {
   width: 85%;
-  background-color: #460066;
+  background-color: #c36f09;
 }
 .css {
   width: 80%;
-  background-color: #ff0080;
+  background-color: #c36f09;
 }
 .js {
   width: 60%;
-  background-color: #ca0000;
+  background-color: #c36f09;
 }
 .python-tkinter {
   width: 68%;
-  background-color: #2bff00;
+  background-color: #c36f09;
 }
 .mysql {
   width: 72%;
-  background-color: #6f00caa1;
+  background-color: #c36f09;
 }
 .flask {
   width: 30%;
-  background-color: #000031;
+  background-color: #c36f09;
 }
 
 .my-info {
@@ -330,7 +341,7 @@ li {
 }
 
 .flip-to-back {
-  background-color: #000cb6;
+  background-color: #c36f09;
   color: rgb(255, 255, 255);
   transform: rotateY(180deg);
 }
@@ -343,7 +354,7 @@ h1 {
 }
 
 h1 span {
-  border: 4px dashed #20bcd5;
+  border: 4px dashed #710000;
   padding: 10px;
 }
 
@@ -362,7 +373,7 @@ h1 span {
 }
 
 .column {
-  padding: 45px;
+  padding: 38px;
 }
 
 .column h1 {
@@ -378,11 +389,17 @@ h1 span {
   display: flex;
   gap: 35px;
 }
+.column-container3 {
+  display: flex;
+}
 
+.project-pic {
+  object-fit: cover;
+}
 .project-info {
-  border-top: dotted white 5px;
-  border-bottom: dotted white 5px;
-  color: rgb(255, 255, 255);
+  border-top: dotted #710000 5px;
+  border-bottom: dotted #710000 5px;
+  color: black;
   width: fit-content;
   padding: 15px;
 }
@@ -393,7 +410,7 @@ h1 span {
 
 .project-info a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 .project-info a:hover {
   text-decoration: underline dashed;
@@ -414,7 +431,7 @@ h1 span {
 .form-layout {
   margin: 0 auto;
   border-radius: 5px;
-  border: #129ceb groove 5px;
+  border: #710000 groove 5px;
   width: min-content;
   padding: 24px;
 }
@@ -439,7 +456,7 @@ textarea {
   border-radius: 5px;
   height: 30px;
   width: 140px;
-  background-color: #129ceb;
+  background-color: #f4e409;
 }
 
 #submit-form:hover {
@@ -451,10 +468,10 @@ textarea {
   border-radius: 5px;
   height: 30px;
   width: 140px;
-  background-color: #129ceb;
+  background-color: #f4e409;
 }
 
-#clear-form:hover {
+#clear-form:hover #clear-form:active {
   background-color: #00439b;
   transition: 1s;
 }
@@ -481,7 +498,7 @@ textarea {
   }
   .form-layout {
     display: block;
-    padding: 0px;
+    padding: 1px;
   }
   .contacts-under-form {
     text-align: center;
@@ -495,8 +512,7 @@ textarea {
   .navbar {
     display: block;
     text-align: center;
-    padding-left: 60px;
-    padding-right: 0px;
+    padding-left: 15px;
   }
 
   .home-quote {
@@ -567,7 +583,7 @@ textarea {
   }
 
   .contacts-under-form ul {
-    padding-left: 0px;
+    padding-left: 18px;
   }
   .contacts-under-form ul li {
     display: inline;
@@ -579,7 +595,7 @@ textarea {
   .navbar {
     text-align: center;
     display: block;
-    padding-left: 86px;
+    padding-left: 0px;
   }
   .home-quote {
     margin-left: 0px;
@@ -672,7 +688,7 @@ textarea {
 
 @media screen and (max-width: 768px) and (min-width: 426px) {
   .links {
-    padding-inline: 34px;
+    padding-inline: 42px;
   }
 
   .quote-border {
@@ -714,6 +730,11 @@ textarea {
     justify-content: center;
   }
 
+  .column-container3 {
+    flex-flow: wrap;
+    justify-content: center;
+  }
+
   .row1,
   .row2 {
     display: block;
@@ -725,7 +746,7 @@ textarea {
   }
 
   .cards {
-    padding-inline: 35px;
+    padding-inline: 33px;
   }
 
   .contacts-under-form ul {
