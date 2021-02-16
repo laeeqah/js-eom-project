@@ -838,3 +838,43 @@ textarea {
     padding-left: 125px;
   }
 }
+
+@media screen and (max-width: 800px) and (min-width: 769px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .links {
+    padding: 10px;
+  }
+
+  .next-to-quote {
+    width: 70%;
+    height: 60%;
+  }
+
+  #about-section #edu {
+    display: block;
+  }
+
+  #about-section #exp {
+    display: block;
+  }
+
+  #about-section #about-contact {
+    display: block;
+  }
+
+  .column-container {
+    padding-left: 0px;
+  }
+
+  .cards {
+    padding-left: 65px;
+  }
+
+  .contacts-under-form ul {
+    padding-left: 180px;
+  }
+}
