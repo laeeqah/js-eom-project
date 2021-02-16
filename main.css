@@ -3,40 +3,32 @@
 html {
   margin: 0px;
   padding: 0px;
-  /* width: 100%; */
 }
 
 body {
   /* changes to the font, font color and size for the whole web page*/
   font: normal 16px sans-serif;
-  color: white;
+  color: black;
   margin: 0px;
   padding: 0px;
-  background: #f4e409;
-  background-image: linear-gradient(
-    to top,
-    #710000,
-    #a63c06,
-    #c36f09,
-    #eeba0b,
-    #f4e409
-  );
+  background: #e79e00;
+  background-color: whitesmoke;
 }
 
 .main-heading {
   /* changes to the main header */
   text-align: center;
-  background-color: #f4e409;
-  padding-top: 80px;
-  padding-bottom: 100px;
+  background-image: url("images/wildflowers.jpg");
+  object-fit: cover;
+  padding-top: 125px;
+  padding-bottom: 225px;
 }
 
 .navbar {
   /* This will style the navigation bar*/
-  background-color: #f4e409;
+  background-color: #564636;
   padding-top: 10px;
   padding-bottom: 10px;
-  /* padding-left: 41px; */
   padding-left: 13px;
   padding-right: 13px;
 }
@@ -45,8 +37,6 @@ body {
 .links {
   padding-right: 100px;
   padding-left: 82px;
-  /* padding-right: 134px;
-  padding-left: 38px; */
   font-weight: bold;
   margin: 0px;
 }
@@ -65,23 +55,19 @@ body {
 
 /* These are the changes to the quote and the picture on Home page */
 .home-quote {
-  margin-left: 80px;
+  margin-left: 170px;
 }
 
 .quote-border {
   padding-right: 0px;
-  border-left: #710000 5px dashed;
-  background-color: #f4e409;
+  border-left: #564636 5px dashed;
+  background-color: #c36f09;
   border-radius: 196px;
-  border-right: #710000 5px dashed;
+  border-right: #564636 5px dashed;
 }
 
 .quote {
-  /* background-image: url("images/stars-at-night.jpg"); */
   text-align: center;
-  /* border-left: dashed white;
-  border-right: dashed white;
-  border-radius: 70%;*/
   padding: 114px;
   font-style: italic;
 }
@@ -99,7 +85,7 @@ body {
 .footer-decor {
   position: relative;
   width: 100%;
-  background-color: #f4e409;
+  background-color: #564636;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -110,7 +96,7 @@ body {
 }
 
 .footer-decor .footer-left p {
-  color: #494949;
+  color: #afafafe0;
   font-size: 14px;
   margin: 0;
 }
@@ -163,7 +149,7 @@ h2 {
   margin: 0 0 0px 0;
 }
 h2 span {
-  border: 4px dashed #710000;
+  border: 4px dashed #564636;
   padding: 10px;
 }
 p {
@@ -173,6 +159,8 @@ p {
 .img-circle {
   border: 3px solid white;
   border-radius: 50%;
+  box-shadow: 3px 3px 3px black;
+  object-fit: cover;
 }
 .section {
   padding: 15px;
@@ -181,14 +169,7 @@ p {
   margin-top: 19px;
 }
 #header {
-  background-image: linear-gradient(
-    to top,
-    #710000,
-    #a63c06,
-    #c36f09,
-    #eeba0b,
-    #f4e409
-  );
+  background-image: linear-gradient(to top, #e79e00, #c36f09);
   background-size: cover;
 }
 #header img {
@@ -209,21 +190,21 @@ p {
 #about-section {
   display: flex;
   margin-top: 20px;
-  border: #710000 dotted 10px;
+  border: #c36f09 dotted 10px;
 }
 
 #about-section #edu {
-  padding: 15px;
+  padding: 0px 0px 0px 80px;
   text-align: left;
 }
 
 #about-section #exp {
-  padding: 15px;
+  padding: 0px 0px 0px 80px;
   text-align: left;
 }
 
 #about-section #about-contact {
-  padding: 15px;
+  padding: 0px 0px 0px 80px;
   text-align: left;
 }
 
@@ -340,6 +321,9 @@ li {
   color: black;
 }
 
+.flip-to-back h1 {
+  font-size: xx-large;
+}
 .flip-to-back {
   background-color: #c36f09;
   color: rgb(255, 255, 255);
@@ -351,10 +335,11 @@ li {
 /* Styling for Projects */
 h1 {
   text-align: center;
+  font-size: xxx-large;
 }
 
 h1 span {
-  border: 4px dashed #710000;
+  border: 4px dashed #564636;
   padding: 10px;
 }
 
@@ -378,6 +363,7 @@ h1 span {
 
 .column h1 {
   padding-bottom: 35px;
+  font-size: xx-large;
 }
 
 .column-container {
@@ -397,11 +383,22 @@ h1 span {
   object-fit: cover;
 }
 .project-info {
-  border-top: dotted #710000 5px;
-  border-bottom: dotted #710000 5px;
+  border-top: dotted #c36f09 5px;
+  border-bottom: dotted #c36f09 5px;
   color: black;
   width: fit-content;
   padding: 15px;
+}
+
+.project-info a {
+  background: #564636;
+  border-radius: 55%;
+  padding: 10px;
+  align-items: flex-end;
+}
+
+.project-info a:hover {
+  background-color: #c36f09;
 }
 .project-info:hover {
   transition: all 0.2s ease-in-out;
@@ -412,10 +409,7 @@ h1 span {
   text-decoration: none;
   color: black;
 }
-.project-info a:hover {
-  text-decoration: underline dashed;
-  color: #20bcd5;
-}
+
 .project-pic {
   width: 240px;
   height: 215px;
@@ -431,7 +425,7 @@ h1 span {
 .form-layout {
   margin: 0 auto;
   border-radius: 5px;
-  border: #710000 groove 5px;
+  border: #c36f09 groove 5px;
   width: min-content;
   padding: 24px;
 }
@@ -456,7 +450,7 @@ textarea {
   border-radius: 5px;
   height: 30px;
   width: 140px;
-  background-color: #f4e409;
+  background-color: #c36f09;
 }
 
 #submit-form:hover {
@@ -468,10 +462,10 @@ textarea {
   border-radius: 5px;
   height: 30px;
   width: 140px;
-  background-color: #f4e409;
+  background-color: #c36f09;
 }
 
-#clear-form:hover #clear-form:active {
+#clear-form:hover {
   background-color: #00439b;
   transition: 1s;
 }
@@ -519,6 +513,7 @@ textarea {
     display: contents;
     padding-left: 0px;
   }
+
   .next-to-quote {
     width: 117px;
     height: 203px;
@@ -534,6 +529,18 @@ textarea {
     display: block;
   }
 
+  #about-section #edu {
+    display: block;
+    padding: 0px;
+  }
+  #about-section #exp {
+    display: block;
+    padding: 0px;
+  }
+  #about-section #about-contact {
+    display: block;
+    padding: 0px;
+  }
   .row1,
   .row2 {
     display: block;
@@ -650,6 +657,18 @@ textarea {
     display: block;
   }
 
+  #about-section #edu {
+    display: block;
+    padding: 0px;
+  }
+  #about-section #exp {
+    display: block;
+    padding: 0px;
+  }
+  #about-section #about-contact {
+    display: block;
+    padding: 0px;
+  }
   /*Portfolio page media changes*/
   .row1,
   .row2 {
@@ -713,6 +732,20 @@ textarea {
     text-align: justify;
   }
 
+  #about-section #edu {
+    display: block;
+    padding: 20px;
+  }
+
+  #about-section #exp {
+    display: block;
+    padding: 20px;
+  }
+
+  #about-section #about-contact {
+    display: block;
+    padding: 20px;
+  }
   table {
     padding-left: 0px;
   }
@@ -759,5 +792,48 @@ textarea {
 
   .table-for-contacts {
     padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 430px) {
+  .navbar {
+    display: flex;
+  }
+
+  .links {
+    padding: 10px;
+  }
+
+  .next-to-quote {
+    width: 70%;
+    height: 60%;
+  }
+
+  #about-section {
+    display: block;
+  }
+
+  #about-section #edu {
+    display: block;
+  }
+
+  #about-section #exp {
+    display: block;
+  }
+
+  #about-section #about-contact {
+    display: block;
+  }
+
+  .column-container {
+    padding-left: 50px;
+  }
+
+  .cards {
+    padding-left: 65px;
+  }
+
+  .contacts-under-form ul {
+    padding-left: 125px;
   }
 }
