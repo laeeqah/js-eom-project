@@ -454,7 +454,7 @@ textarea {
 }
 
 #submit-form:hover {
-  background-color: #006416;
+  background-color: #610e0e;
   transition: 1s;
 }
 
@@ -466,7 +466,7 @@ textarea {
 }
 
 #clear-form:hover {
-  background-color: #00439b;
+  background-color: #610e0e;
   transition: 1s;
 }
 
