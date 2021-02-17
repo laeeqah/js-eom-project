@@ -603,6 +603,7 @@ textarea {
     text-align: center;
     display: block;
     padding-left: 0px;
+    padding-right: 0px;
   }
   .home-quote {
     margin-left: 0px;
@@ -849,6 +850,9 @@ textarea {
     padding: 10px;
   }
 
+  .home-quote {
+    margin-left: 0px;
+  }
   .next-to-quote {
     width: 70%;
     height: 60%;
