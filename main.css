@@ -832,7 +832,7 @@ textarea {
   }
 
   .cards {
-    padding-left: 65px;
+    padding-left: 35px;
   }
 
   .contacts-under-form ul {
@@ -875,10 +875,18 @@ textarea {
   }
 
   .cards {
-    padding-left: 65px;
+    display: inline-flex;
+    padding-inline-start: 34px;
+  }
+
+  .contacts-under-form ul li {
+    padding-left: 180px;
+    padding-inline: 0px;
   }
 
   .contacts-under-form ul {
-    padding-left: 180px;
+    display: block;
+    text-align: center;
+    padding-left: 0px;
   }
 }
