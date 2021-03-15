@@ -11,22 +11,27 @@ body {
   color: black;
   margin: 0px;
   padding: 0px;
-  background: #e79e00;
+  background: #272b31;
   background-color: whitesmoke;
 }
 
 .main-heading {
   /* changes to the main header */
   text-align: center;
-  background-image: url("images/wildflowers.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+    url("images/portfolio-landing.jpg");
   object-fit: cover;
   padding-top: 125px;
   padding-bottom: 225px;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .navbar {
   /* This will style the navigation bar*/
-  background-color: #564636;
+  background-color: #272b31;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 13px;
@@ -48,22 +53,32 @@ body {
 
 /* Changes the background when hovering the links in the navigation bar */
 .links:hover {
-  background-color: #c36f09;
+  background-color: #da123e;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 /* These are the changes to the quote and the picture on Home page */
+.main-heading h1,
+h3 {
+  color: #fff;
+}
 .home-quote {
-  margin-left: 170px;
+  /* margin-left: 170px; */
+  margin-left: 31%;
+  display: flex;
+  flex-direction: column;
 }
 
 .quote-border {
+  color: white;
   padding-right: 0px;
-  border-left: #564636 5px dashed;
-  background-color: #c36f09;
-  border-radius: 196px;
-  border-right: #564636 5px dashed;
+  border-left: none;
+  background-color: none;
+  border-radius: 54% 46% 46% 54% / 42% 0% 100% 58%;
+  border-right: none;
+  border: black solid;
+  background: black;
 }
 
 .quote {
@@ -77,15 +92,37 @@ body {
 }
 
 .next-to-quote {
-  width: 50%;
+  width: 70%;
   height: 50%;
 }
 
+/* index button */
+#view-btn {
+  text-transform: uppercase;
+  border-width: 11px;
+  border: #da123e solid;
+  background: none;
+  width: 132px;
+  padding: 13px;
+  position: relative;
+  display: inline-flex;
+  text-decoration: none;
+  color: #000;
+  margin-left: 565px;
+  margin-top: 30px;
+  justify-content: center;
+  color: white;
+}
+
+#view-btn:hover {
+  background: #da123e;
+  transition: all ease-in-out 0.5s;
+}
 /* Footer changes */
 .footer-decor {
   position: relative;
   width: 100%;
-  background-color: #564636;
+  background-color: #272b31;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -148,36 +185,43 @@ h2 {
   padding: 18px 0 18px 0;
   margin: 0 0 0px 0;
 }
+
 h2 span {
-  border: 4px dashed #564636;
+  border: 4px dashed #da123e;
   padding: 10px;
 }
+
 p {
   padding: 0;
   margin: 0;
 }
+
 .img-circle {
   border: 3px solid white;
   border-radius: 50%;
   box-shadow: 3px 3px 3px black;
   object-fit: cover;
 }
+
 .section {
   padding: 15px;
   margin-bottom: 20px;
   border-radius: 182px;
   margin-top: 19px;
 }
+
 #header {
-  background-image: linear-gradient(to top, #e79e00, #c36f09);
+  background-image: linear-gradient(to top, #ffffff, #272b31);
   background-size: cover;
 }
+
 #header img {
   display: block;
   width: 10%;
   height: 50%;
   margin: auto;
 }
+
 #header p {
   font-size: 30pt;
   color: #000000;
@@ -190,9 +234,12 @@ p {
 #about-section {
   display: flex;
   margin-top: 20px;
-  border: #c36f09 dotted 10px;
+  border: #272b31 dotted 10px;
 }
 
+#about-section h3 {
+  color: #da123e;
+}
 #about-section #edu {
   padding: 0px 0px 0px 80px;
   text-align: left;
@@ -240,27 +287,27 @@ p {
 
 .html {
   width: 85%;
-  background-color: #c36f09;
+  background-color: #da123e;
 }
 .css {
   width: 80%;
-  background-color: #c36f09;
+  background-color: #da123e;
 }
 .js {
   width: 60%;
-  background-color: #c36f09;
+  background-color: #da123e;
 }
 .python-tkinter {
   width: 68%;
-  background-color: #c36f09;
+  background-color: #da123e;
 }
 .mysql {
   width: 72%;
-  background-color: #c36f09;
+  background-color: #da123e;
 }
 .flask {
   width: 30%;
-  background-color: #c36f09;
+  background-color: #da123e;
 }
 
 .my-info {
@@ -325,7 +372,7 @@ li {
   font-size: xx-large;
 }
 .flip-to-back {
-  background-color: #c36f09;
+  background-color: #da123e;
   color: rgb(255, 255, 255);
   transform: rotateY(180deg);
 }
@@ -339,7 +386,7 @@ h1 {
 }
 
 h1 span {
-  border: 4px dashed #564636;
+  border: 4px dashed #da123e;
   padding: 10px;
 }
 
@@ -383,22 +430,22 @@ h1 span {
   object-fit: cover;
 }
 .project-info {
-  border-top: dotted #c36f09 5px;
-  border-bottom: dotted #c36f09 5px;
+  border-top: dotted #272b31 5px;
+  border-bottom: dotted #272b31 5px;
   color: black;
   width: fit-content;
   padding: 15px;
 }
 
 .project-info a {
-  background: #564636;
+  background: #272b31;
   border-radius: 55%;
   padding: 10px;
   align-items: flex-end;
 }
 
 .project-info a:hover {
-  background-color: #c36f09;
+  background-color: #da123e;
 }
 .project-info:hover {
   transition: all 0.2s ease-in-out;
@@ -425,9 +472,13 @@ h1 span {
 .form-layout {
   margin: 0 auto;
   border-radius: 5px;
-  border: #c36f09 groove 5px;
+  border: #da123e groove 5px;
   width: min-content;
   padding: 24px;
+}
+
+.form-layout h3 {
+  color: black;
 }
 
 .contact {
@@ -450,11 +501,11 @@ textarea {
   border-radius: 5px;
   height: 30px;
   width: 140px;
-  background-color: #c36f09;
+  background-color: #272b31;
 }
 
 #submit-form:hover {
-  background-color: #610e0e;
+  background-color: #da123e;
   transition: 1s;
 }
 
@@ -462,11 +513,11 @@ textarea {
   border-radius: 5px;
   height: 30px;
   width: 140px;
-  background-color: #c36f09;
+  background-color: #272b31;
 }
 
 #clear-form:hover {
-  background-color: #610e0e;
+  background-color: #da123e;
   transition: 1s;
 }
 
@@ -501,12 +552,20 @@ textarea {
     display: inline;
     padding-inline: 2px;
   }
+
+  #view-btn {
+    margin-left: 80px;
+  }
 }
 @media screen and (max-width: 375px) and (min-width: 320px) {
   .navbar {
     display: block;
     text-align: center;
     padding-left: 15px;
+  }
+
+  #view-btn {
+    margin-left: 80px;
   }
 
   .home-quote {
@@ -605,6 +664,11 @@ textarea {
     padding-left: 0px;
     padding-right: 0px;
   }
+
+  #view-btn {
+    margin-left: 125px;
+  }
+
   .home-quote {
     margin-left: 0px;
   }
@@ -711,6 +775,10 @@ textarea {
     padding-inline: 42px;
   }
 
+  #view-btn {
+    margin-left: 300px;
+  }
+
   .quote-border {
     display: inline-block;
   }
@@ -721,7 +789,7 @@ textarea {
   }
 
   .home-quote {
-    margin-left: 0px;
+    margin-left: 177px;
   }
 
   #header img {
