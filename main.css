@@ -15,6 +15,9 @@ body {
   background-color: whitesmoke;
 }
 
+.project-info h3 {
+  color: #000;
+}
 .main-heading {
   /* changes to the main header */
   text-align: center;
