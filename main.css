@@ -47,6 +47,7 @@ body {
   padding-left: 82px;
   font-weight: bold;
   margin: 0px;
+  text-decoration: none;
 }
 
 /* Changes the font color in the navbar */
@@ -59,6 +60,8 @@ body {
   background-color: #da123e;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-radius: 25px;
+  transition: ease-out all 0.3s;
 }
 
 /* These are the changes to the quote and the picture on Home page */
@@ -234,28 +237,79 @@ p {
   text-align: center;
 }
 
+.moreInfo {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.moreInfo .picture-effect {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.moreInfo:hover .picture-effect {
+  opacity: 1;
+}
+
+.more-image {
+  width: 100%;
+  height: 202px;
+}
+
+.more-info {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.moreInfo:hover .more-info {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.more-info h3 {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.more-info h4 {
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.moreInfo .detail-text {
+  color: #fff;
+}
+.fading {
+  top: 80%;
+}
+
 #about-section {
   display: flex;
   margin-top: 20px;
-  border: #272b31 dotted 10px;
-}
-
-#about-section h3 {
-  color: #da123e;
-}
-#about-section #edu {
-  padding: 0px 0px 0px 80px;
-  text-align: left;
-}
-
-#about-section #exp {
-  padding: 0px 0px 0px 80px;
-  text-align: left;
-}
-
-#about-section #about-contact {
-  padding: 0px 0px 0px 80px;
-  text-align: left;
+  /* border: #272b31 dotted 10px; */
 }
 
 /* Changes to the social icons and the skills bar */
@@ -559,6 +613,10 @@ textarea {
   #view-btn {
     margin-left: 80px;
   }
+
+  .more-info {
+    font-size: smaller;
+  }
 }
 @media screen and (max-width: 375px) and (min-width: 320px) {
   .navbar {
@@ -591,18 +649,6 @@ textarea {
     display: block;
   }
 
-  #about-section #edu {
-    display: block;
-    padding: 0px;
-  }
-  #about-section #exp {
-    display: block;
-    padding: 0px;
-  }
-  #about-section #about-contact {
-    display: block;
-    padding: 0px;
-  }
   .row1,
   .row2 {
     display: block;
@@ -725,18 +771,6 @@ textarea {
     display: block;
   }
 
-  #about-section #edu {
-    display: block;
-    padding: 0px;
-  }
-  #about-section #exp {
-    display: block;
-    padding: 0px;
-  }
-  #about-section #about-contact {
-    display: block;
-    padding: 0px;
-  }
   /*Portfolio page media changes*/
   .row1,
   .row2 {
@@ -804,20 +838,10 @@ textarea {
     text-align: justify;
   }
 
-  #about-section #edu {
-    display: block;
-    padding: 20px;
+  .more-info {
+    font-size: small;
   }
 
-  #about-section #exp {
-    display: block;
-    padding: 20px;
-  }
-
-  #about-section #about-contact {
-    display: block;
-    padding: 20px;
-  }
   table {
     padding-left: 0px;
   }
@@ -886,18 +910,6 @@ textarea {
     display: block;
   }
 
-  #about-section #edu {
-    display: block;
-  }
-
-  #about-section #exp {
-    display: block;
-  }
-
-  #about-section #about-contact {
-    display: block;
-  }
-
   .column-container {
     padding-left: 0px;
   }
@@ -927,18 +939,6 @@ textarea {
   .next-to-quote {
     width: 70%;
     height: 60%;
-  }
-
-  #about-section #edu {
-    display: block;
-  }
-
-  #about-section #exp {
-    display: block;
-  }
-
-  #about-section #about-contact {
-    display: block;
   }
 
   .column-container {
